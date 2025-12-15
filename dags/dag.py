@@ -2,7 +2,7 @@ from airflow import DAG
 from airflow.operators.bash import BashOperator
 from pendulum import datetime
 
-with DAG(
+with (
     dag_id="example_airflow_3_dag",
     start_date=datetime(2024, 1, 1, tz="UTC"),
     schedule="@daily",
