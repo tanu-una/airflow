@@ -1,0 +1,15 @@
+{"timestamp":"2025-12-14T16:25:19.904316Z","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2025-12-14T16:25:19.906276Z","level":"info","event":"Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_kubernetes_executor.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2025-12-14T16:25:20.035799Z","level":"info","event":"Task instance is in running state","logger":"task.stdout"}
+{"timestamp":"2025-12-14T16:25:20.036408Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","logger":"task.stdout"}
+{"timestamp":"2025-12-14T16:25:20.036970Z","level":"info","event":"Current task name:test_sharedvolume_mount","logger":"task.stdout"}
+{"timestamp":"2025-12-14T16:25:20.037382Z","level":"info","event":"Dag name:example_kubernetes_executor","logger":"task.stdout"}
+{"timestamp":"2025-12-14T16:25:20.045247Z","level":"error","event":"cat: /shared/test.txt: No such file or directory","logger":"task.stderr"}
+{"timestamp":"2025-12-14T16:25:20.049553Z","level":"error","event":"cat: /shared/test.txt: No such file or directory","logger":"task.stderr"}
+{"timestamp":"2025-12-14T16:25:20.054489Z","level":"error","event":"cat: /shared/test.txt: No such file or directory","logger":"task.stderr"}
+{"timestamp":"2025-12-14T16:25:20.058930Z","level":"error","event":"cat: /shared/test.txt: No such file or directory","logger":"task.stderr"}
+{"timestamp":"2025-12-14T16:25:20.062630Z","level":"error","event":"cat: /shared/test.txt: No such file or directory","logger":"task.stderr"}
+{"timestamp":"2025-12-14T16:25:20.063179Z","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.decorators.python._PythonDecoratedOperator","filename":"python.py","lineno":217}
+{"timestamp":"2025-12-14T16:25:20.105187Z","level":"info","event":"Task instance in success state","logger":"task.stdout"}
+{"timestamp":"2025-12-14T16:25:20.105860Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","logger":"task.stdout"}
+{"timestamp":"2025-12-14T16:25:20.111331Z","level":"info","event":"Task operator:<Task(_PythonDecoratedOperator): test_sharedvolume_mount>","logger":"task.stdout"}
