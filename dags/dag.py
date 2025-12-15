@@ -4,7 +4,7 @@ from pendulum import datetime
 
 with DAG(
     dag_id="example_airflow_3_dag",
-    start_date=datetime(2024, 1, 1, tz="UTC"),
+    start_date=datetime(2024, 1, 1, tz="ITC"),
     schedule="@daily",
     catchup=False,
     tags=["example"],
